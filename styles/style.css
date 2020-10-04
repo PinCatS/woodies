@@ -1,0 +1,60 @@
+.page {
+    font-family: 'Nunito', 'Helvetica', sans-serif;
+    font-style: normal;
+    color: #3E3F43;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 28px 0 0 80px;
+}
+
+.menu__links {
+    list-style: none;
+    margin: 0;
+}
+
+.menu__links-element {
+    display: inline;
+    margin: 0 48px 0 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #222222;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.menu__link_active {
+    font-weight: 800;
+    color: #DAA520;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__header {
+  margin-right: 115px;
+}
+
+.logo__icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.logo__label {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+    color: #3E3F43;
+}
