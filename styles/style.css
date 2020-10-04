@@ -83,6 +83,8 @@
     margin: 0 48px 0 0;
 }
 
+/* TODO: Remove margin from the last element */
+
 .menu__link {
     text-decoration: none;
     color: #222222;
@@ -133,4 +135,79 @@
   font-size: 16px;
   line-height: 22px;
   color: #FFFFFF;
+}
+
+.about-us {
+  min-height: 950px;
+}
+
+.about-us__heading {
+  margin: 0 0 16px 0;
+  width: 448px;
+  height: 98px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #3E3F43;
+}
+
+.about-us__accent {
+  font-weight: 800;
+}
+
+.about-us__paragraph {
+  margin: 0;
+  width: 448px;
+  height: 66px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  color: rgba(34, 34, 34, 0.1);
+}
+
+.section-subtitle {
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #3E3F43; 
+}
+
+.section-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 278px;
+  height: 388px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.card__image {
+  width: 388px;
+  height: 306px;
+}
+
+.card_color_yellow {
+  background: #F7DEA6;
 }
