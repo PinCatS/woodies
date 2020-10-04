@@ -141,8 +141,12 @@
   margin-left: 102px;
 }
 
+.button__how-it-works {
+  display: block;
+  margin: auto auto;
+}
+
 .about-us {
-  position: relative;
   min-height: 950px;
   padding: 0 100px;
 }
@@ -190,6 +194,10 @@
   margin-bottom: 40px;
 }
 
+.section-header__how-it-works {
+  margin-bottom: 64px;
+}
+
 .section-title {
   margin: 0;
   font-weight: 800;
@@ -216,6 +224,11 @@
   margin-bottom: 40px;
 }
 
+.section-row__how-it-works {
+  margin-bottom: 78px;
+  justify-content: center;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -236,4 +249,27 @@
 .card__image {
   width: 388px;
   height: 306px;
+}
+
+.how-it-works {
+  padding: 0 100px;
+}
+
+.how-it-works_space-top {
+  margin-top: 120px;
+}
+
+.how-it-works__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.how-it-works__list-item {
+  display: inline;
+}
+
+.how-it-works__image {
+  width: 238px;
+  height: 177px;
 }
