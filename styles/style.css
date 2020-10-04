@@ -4,10 +4,6 @@
     color: #3E3F43;
 }
 
-.page_position_shifted {
-  margin-left: 102px;
-}
-
 .header {
   display: flow-root;   /* prevent from margin collapsing */
   position: relative;
@@ -16,7 +12,7 @@
 
 .header__subtitle {
   display: block;
-  margin: 217px 0 16px 0;
+  margin: 217px 0 16px 102px;
   width: 504px;
   height: 98px;
   font-weight: normal;
@@ -33,7 +29,7 @@
 .header__title {
   width: 504px;
   height: 196px;
-  margin: 0 0 16px 0;
+  margin: 0 0 16px 102px;
   font-family: Nunito;
   font-style: normal;
   font-weight: bold;
@@ -70,12 +66,13 @@
 .menu__header {
   position: absolute;
   top: 28px;
-  left: -22px; /* TODO: Make it better */
+  left: 80px;
 }
 
 .menu__links {
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
 .menu__links-element {
@@ -83,7 +80,9 @@
     margin: 0 48px 0 0;
 }
 
-/* TODO: Remove margin from the last element */
+.menu__links-element:last-of-type {
+  margin-right: 0px;
+}
 
 .menu__link {
     text-decoration: none;
@@ -128,6 +127,7 @@
   border-radius: 4px;
   border: none;
   padding: 14px 24px;
+  margin: 0;
 
   font-family: Nunito;
   font-style: normal;
@@ -137,8 +137,18 @@
   color: #FFFFFF;
 }
 
+.button__header {
+  margin-left: 102px;
+}
+
 .about-us {
+  position: relative;
   min-height: 950px;
+  padding: 0 100px;
+}
+
+.about-us_space-top {
+  margin-top: 120px;
 }
 
 .about-us__heading {
@@ -165,10 +175,19 @@
   color: #000000;
 }
 
+.about-us__image {
+  width: 287px;
+  height: 384px;
+}
+
 .section-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.section-header__about-us {
+  margin-bottom: 40px;
 }
 
 .section-title {
@@ -193,21 +212,28 @@
   align-items: center;
 }
 
+.section-row__about-us {
+  margin-bottom: 40px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 278px;
-  height: 388px;
   border-bottom-left-radius: 100px;
   border-top-right-radius: 100px;
+}
+
+.card_color_yellow {
+  background: #F7DEA6;
+}
+
+.card__about-us {
+  width: 278px;
+  height: 388px;
 }
 
 .card__image {
   width: 388px;
   height: 306px;
-}
-
-.card_color_yellow {
-  background: #F7DEA6;
 }
