@@ -11,8 +11,8 @@ Made up Woodies store layout taken from the [figmacrush](https://www.figma.com/f
 
 ## How to open
 
-Download the files and open index.html in any browser. (Tested on Chrome, Yandex, Safari and Firefox)
+Download the files and open index.html in any browser. (Tested in Chrome, Yandex, Safari and Firefox)
 
 ## Restriction
 
-Only for desktop screens
+Only for the desktop screens
