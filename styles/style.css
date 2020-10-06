@@ -1,8 +1,8 @@
 .page {
-    overflow-x: hidden;
-    font-family: 'Nunito', 'Helvetica', sans-serif;
-    font-style: normal;
-    color: #3E3F43;
+  overflow-x: hidden;
+  font-family: 'Nunito', 'Helvetica', sans-serif;
+  font-style: normal;
+  color: #3E3F43;
 }
 
 .header {
@@ -60,10 +60,10 @@
 }
 
 .menu {
-    z-index: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .menu__header {
@@ -73,14 +73,14 @@
 }
 
 .menu__links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu__links-element {
-    display: inline;
-    margin: 0 48px 0 0;
+  display: inline;
+  margin: 0 48px 0 0;
 }
 
 .menu__links-element:last-of-type {
@@ -88,21 +88,21 @@
 }
 
 .menu__link {
-    text-decoration: none;
-    color: #222222;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
+  text-decoration: none;
+  color: #222222;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .menu__link_active {
-    font-weight: 800;
-    color: #DAA520;
+  font-weight: 800;
+  color: #DAA520;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo__header {
@@ -114,19 +114,19 @@
 }
 
 .logo__icon {
-    width: 30px;
-    height: 30px;
-    margin-right: 8px;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
 }
 
 .logo__label {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 33px;
-    letter-spacing: 0.25em;
-    color: #3E3F43;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.25em;
+  color: #3E3F43;
 }
 
 .button {
