@@ -151,7 +151,7 @@
   padding: 0 100px;
 }
 
-.about-us_space-top {
+.about-us_space_top {
   margin-top: 120px;
 }
 
@@ -198,6 +198,10 @@
   margin-bottom: 64px;
 }
 
+.section-header__categories {
+  margin-bottom: 40px;
+}
+
 .section-title {
   margin: 0;
   font-weight: 800;
@@ -229,6 +233,15 @@
   justify-content: center;
 }
 
+.section-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 56px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -241,9 +254,33 @@
   background: #F7DEA6;
 }
 
+.card_color_pink {
+  background: #F9BDBD;
+}
+
+.card_color_blue {
+  background: #A8DCEC;
+}
+
 .card__about-us {
   width: 278px;
   height: 388px;
+}
+
+.card__categories {
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  height: 400px;
+}
+
+.card__name {
+  align-self: flex-start;
+  margin: 24px 0 0 16px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #3E3F43;
 }
 
 .card__image {
@@ -251,25 +288,73 @@
   height: 306px;
 }
 
+.card__image_name_desk {
+  align-self: flex-start;
+  width: 246px;
+  height: 224px;
+}
+
+.card__image_name_chair {
+  width: 165.25px;
+  height: 235px;
+}
+
+.card__image_name_kitchenware {
+  width: 181.01px;
+  height: 200px;
+}
+
+.card__image_name_book-shelf {
+  width: 148.82px;
+  height: 235px;
+}
+
+.card__image_name_electronics {
+  width: 235px;
+  height: 139.12px;
+}
+
+.card__button {
+  margin: 0 16px 24px 0;
+  align-self: flex-end;
+  width: 123px;
+  height: 40px;
+
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #3E3F43;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #3E3F43;
+}
+
 .how-it-works {
   padding: 0 100px;
 }
 
-.how-it-works_space-top {
+.how-it-works_space_top {
   margin-top: 120px;
 }
 
-.how-it-works__list {
+.section-list {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.how-it-works__list-item {
-  display: inline;
-}
-
 .how-it-works__image {
   width: 238px;
   height: 177px;
+}
+
+.categories {
+  padding: 0 100px;
+}
+
+.categories_space_top {
+  margin-top: 120px;
 }
