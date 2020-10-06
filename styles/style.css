@@ -39,6 +39,7 @@
 }
 
 .header__art-pic {
+  z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
@@ -50,6 +51,7 @@
 }
 
 .header__image {
+  z-index: -1;
   position: absolute;
   top: 165px;
   right: 0;
@@ -58,6 +60,7 @@
 }
 
 .menu {
+    z-index: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -142,6 +145,7 @@
 }
 
 .button__header {
+  z-index: 1;
   margin-left: 102px;
 }
 
