@@ -437,6 +437,7 @@
 }
 
 .footer__heading {
+  min-height: 33px;
   margin: 0 0 16px 0;
   font-weight: 600;
   font-size: 18px;
