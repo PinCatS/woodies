@@ -368,3 +368,8 @@
 .footer_space_top {
   margin-top: 120px;
 }
+
+.content {
+  width: 1152px;
+  margin: 0 auto;
+}
