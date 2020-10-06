@@ -358,3 +358,13 @@
 .categories_space_top {
   margin-top: 120px;
 }
+
+.footer {
+  min-height: 455px;
+  background: url('../images/footer_image.png') no-repeat bottom right / 508px 455px;
+  background-color: #f0f0f0;
+}
+
+.footer_space_top {
+  margin-top: 120px;
+}
